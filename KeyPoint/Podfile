@@ -1,0 +1,17 @@
+platform :ios, '10.0'
+target 'KeyPoint' do
+project 'KeyPoint.xcodeproj'
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+pod 'AFNetworking'
+pod 'Alamofire'
+pod 'RxSwift',    '~> 4.0'
+pod 'RxCocoa',    '~> 4.0'
+pod 'JJCategoryKit'
+pod 'MLeaksFinder'
+pod 'RealmSwift', '~> 3.5.0'
+pod 'ObjectMapper'
+pod 'Moya', '~> 11.0'
+pod 'RongCloudIM/IMLib'
+pod 'RongCloudIM/IMKit'
+end
