@@ -86,7 +86,7 @@ class RXViewController: UIViewController {
             print("event\(event)")
         }
 
-     let resutlt =   arr.skip(2).subscribe(onNext: { (w) in
+     let resutlt =  arr.skip(2).subscribe(onNext: { (w) in
             print("dd\(w ?? 99)")
         }, onError: { (err) in
             

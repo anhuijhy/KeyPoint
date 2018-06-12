@@ -58,6 +58,17 @@
 		9D76E0B7206DD7B8007AF277 /* SwizzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D76E0B6206DD7B8007AF277 /* SwizzeViewController.swift */; };
 		9D76E0B9206DEDC3007AF277 /* AddProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D76E0B8206DEDC3007AF277 /* AddProperty.swift */; };
 		9DFBF945207361DA00C2DE9B /* ZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBF944207361DA00C2DE9B /* ZipViewController.swift */; };
+		C00678CE20CFC08D00B9AA9F /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678CD20CFC08D00B9AA9F /* ImageManager.swift */; };
+		C01B0F0020C782DB00D15252 /* MoreRXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B0EFE20C782DB00D15252 /* MoreRXViewController.swift */; };
+		C01B0F0120C782DB00D15252 /* MoreRXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01B0EFF20C782DB00D15252 /* MoreRXViewController.xib */; };
+		C01B0F0420C7A77A00D15252 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B0F0220C7A77A00D15252 /* PresentViewController.swift */; };
+		C01B0F0520C7A77A00D15252 /* PresentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01B0F0320C7A77A00D15252 /* PresentViewController.xib */; };
+		C01B0F0820C90C6D00D15252 /* CLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B0F0620C90C6D00D15252 /* CLocationViewController.swift */; };
+		C01B0F0920C90C6D00D15252 /* CLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01B0F0720C90C6D00D15252 /* CLocationViewController.xib */; };
+		C01B0F0B20C90D3600D15252 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01B0F0A20C90D3600D15252 /* CoreLocation.framework */; };
+		C01B0F0D20C90E2B00D15252 /* CLocation+RX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B0F0C20C90E2B00D15252 /* CLocation+RX.swift */; };
+		C01B0F1020CA1F8900D15252 /* RunLoopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B0F0E20CA1F8900D15252 /* RunLoopViewController.swift */; };
+		C01B0F1120CA1F8900D15252 /* RunLoopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01B0F0F20CA1F8900D15252 /* RunLoopViewController.xib */; };
 		C03BB7EC20AD4F7100841ED8 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BB7EB20AD4F7100841ED8 /* RealmViewController.swift */; };
 		C03BB7EE20AD50DF00841ED8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BB7ED20AD50DF00841ED8 /* Person.swift */; };
 		C03BB7F120AEC71100841ED8 /* MoyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BB7F020AEC71100841ED8 /* MoyaViewController.swift */; };
@@ -153,6 +164,17 @@
 		9D76E0B8206DEDC3007AF277 /* AddProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProperty.swift; sourceTree = "<group>"; };
 		9DFBF944207361DA00C2DE9B /* ZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipViewController.swift; sourceTree = "<group>"; };
 		A194B6CD3C53C662BDCCD3F2 /* Pods-KeyPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyPoint/Pods-KeyPoint.release.xcconfig"; sourceTree = "<group>"; };
+		C00678CD20CFC08D00B9AA9F /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		C01B0EFE20C782DB00D15252 /* MoreRXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreRXViewController.swift; sourceTree = "<group>"; };
+		C01B0EFF20C782DB00D15252 /* MoreRXViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreRXViewController.xib; sourceTree = "<group>"; };
+		C01B0F0220C7A77A00D15252 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		C01B0F0320C7A77A00D15252 /* PresentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PresentViewController.xib; sourceTree = "<group>"; };
+		C01B0F0620C90C6D00D15252 /* CLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLocationViewController.swift; sourceTree = "<group>"; };
+		C01B0F0720C90C6D00D15252 /* CLocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLocationViewController.xib; sourceTree = "<group>"; };
+		C01B0F0A20C90D3600D15252 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C01B0F0C20C90E2B00D15252 /* CLocation+RX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLocation+RX.swift"; sourceTree = "<group>"; };
+		C01B0F0E20CA1F8900D15252 /* RunLoopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLoopViewController.swift; sourceTree = "<group>"; };
+		C01B0F0F20CA1F8900D15252 /* RunLoopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunLoopViewController.xib; sourceTree = "<group>"; };
 		C03BB7EB20AD4F7100841ED8 /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
 		C03BB7ED20AD50DF00841ED8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		C03BB7F020AEC71100841ED8 /* MoyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +207,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01B0F0B20C90D3600D15252 /* CoreLocation.framework in Frameworks */,
 				C07C82C020BFF89F006391BB /* UserNotificationsUI.framework in Frameworks */,
 				C07C82BE20BFF884006391BB /* UserNotifications.framework in Frameworks */,
 				96CD76EF20970E420024162E /* CoreNFC.framework in Frameworks */,
@@ -198,6 +221,7 @@
 		0C4E336F458D327E8E62A12D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C01B0F0A20C90D3600D15252 /* CoreLocation.framework */,
 				C07C82BF20BFF89E006391BB /* UserNotificationsUI.framework */,
 				C07C82BD20BFF884006391BB /* UserNotifications.framework */,
 				96CD76EE20970E420024162E /* CoreNFC.framework */,
@@ -279,6 +303,9 @@
 		96A191B0209C0A1A00EC037F /* 过滤/异步授权 */ = {
 			isa = PBXGroup;
 			children = (
+				C01B0F0620C90C6D00D15252 /* CLocationViewController.swift */,
+				C01B0F0C20C90E2B00D15252 /* CLocation+RX.swift */,
+				C01B0F0720C90C6D00D15252 /* CLocationViewController.xib */,
 				96A191B1209C12A000EC037F /* SkipAsyViewController.swift */,
 				96A191B3209C137C00EC037F /* PHPhotoLibrary+RX.swift */,
 			);
@@ -416,6 +443,8 @@
 				9D76E0AC206CF039007AF277 /* GetPropertyViewController.swift */,
 				9D76E0B4206D4CC8007AF277 /* GetPropertyBaseOCViewController.swift */,
 				9D76E0B6206DD7B8007AF277 /* SwizzeViewController.swift */,
+				C01B0F1220CA1F8E00D15252 /* RunLoop */,
+				C01B0EFB20C7829A00D15252 /* MoreRX */,
 				C07C82B420BEBD6D006391BB /* RongClound */,
 				C03BB7EF20AEC6EA00841ED8 /* Mayo */,
 				C03BB7EA20AD4F4D00841ED8 /* Realm */,
@@ -446,6 +475,27 @@
 				960510082077CEA00020D9A1 /* Podfile */,
 			);
 			path = KeyPoint;
+			sourceTree = "<group>";
+		};
+		C01B0EFB20C7829A00D15252 /* MoreRX */ = {
+			isa = PBXGroup;
+			children = (
+				C01B0EFE20C782DB00D15252 /* MoreRXViewController.swift */,
+				C01B0EFF20C782DB00D15252 /* MoreRXViewController.xib */,
+				C01B0F0220C7A77A00D15252 /* PresentViewController.swift */,
+				C01B0F0320C7A77A00D15252 /* PresentViewController.xib */,
+			);
+			name = MoreRX;
+			sourceTree = "<group>";
+		};
+		C01B0F1220CA1F8E00D15252 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				C01B0F0E20CA1F8900D15252 /* RunLoopViewController.swift */,
+				C01B0F0F20CA1F8900D15252 /* RunLoopViewController.xib */,
+				C00678CD20CFC08D00B9AA9F /* ImageManager.swift */,
+			);
+			name = RunLoop;
 			sourceTree = "<group>";
 		};
 		C03BB7EA20AD4F4D00841ED8 /* Realm */ = {
@@ -608,10 +658,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				96257787209213A6007818A7 /* Static_const_extern_ViewController.xib in Resources */,
+				C01B0F0120C782DB00D15252 /* MoreRXViewController.xib in Resources */,
 				9D76E0A5206CD863007AF277 /* LaunchScreen.storyboard in Resources */,
 				9D76E0A2206CD863007AF277 /* Assets.xcassets in Resources */,
 				9625778D20938107007818A7 /* ToDoDemoViewController.xib in Resources */,
+				C01B0F0520C7A77A00D15252 /* PresentViewController.xib in Resources */,
+				C01B0F1120CA1F8900D15252 /* RunLoopViewController.xib in Resources */,
 				960510092077CEA10020D9A1 /* Podfile in Resources */,
+				C01B0F0920C90C6D00D15252 /* CLocationViewController.xib in Resources */,
 				96292FC6207932E90013F72C /* GaoJieViewController.xib in Resources */,
 				96292FCB2079F4050013F72C /* RXViewController.xib in Resources */,
 				9D76E0A0206CD863007AF277 /* Main.storyboard in Resources */,
@@ -633,6 +687,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-KeyPoint/Pods-KeyPoint-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AsyncDisplayKit/AsyncDisplayKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
 				"${BUILT_PRODUCTS_DIR}/JJCategoryKit/JJCategoryKit.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -640,16 +695,23 @@
 				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JJCategoryKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -657,11 +719,17 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -741,6 +809,7 @@
 				C03BB7F320AEC7A200841ED8 /* MoyaService.swift in Sources */,
 				96A191B2209C12A000EC037F /* SkipAsyViewController.swift in Sources */,
 				9D76E0AF206CFFFC007AF277 /* TestASwiftClass.swift in Sources */,
+				C01B0F0820C90C6D00D15252 /* CLocationViewController.swift in Sources */,
 				96A191C9209DE05200EC037F /* RXCocoaViewController.swift in Sources */,
 				C07C82BA20BFA181006391BB /* RCChatViewController.swift in Sources */,
 				96A191D0209EACAB00EC037F /* RXTvViewController.swift in Sources */,
@@ -748,12 +817,14 @@
 				96A191C0209D651400EC037F /* ToDoRouter.swift in Sources */,
 				9D76E0B5206D4CC8007AF277 /* GetPropertyBaseOCViewController.swift in Sources */,
 				96A2CE6220A1EABA00F88100 /* AVCaptureViewController.swift in Sources */,
+				C01B0F0D20C90E2B00D15252 /* CLocation+RX.swift in Sources */,
 				96A2CE6420A1F3E700F88100 /* File.swift in Sources */,
 				9625778C20938107007818A7 /* ToDoDemoViewController.swift in Sources */,
 				96292FCA2079F4050013F72C /* RXViewController.swift in Sources */,
 				C03BB7EE20AD50DF00841ED8 /* Person.swift in Sources */,
 				962577952094DDB3007818A7 /* ToDoCell.swift in Sources */,
 				C07C82BC20BFEB31006391BB /* ChatCell.swift in Sources */,
+				C00678CE20CFC08D00B9AA9F /* ImageManager.swift in Sources */,
 				9D5E01C92071C94400B4B410 /* OCObject.m in Sources */,
 				96292FC5207932E90013F72C /* GaoJieViewController.swift in Sources */,
 				9D76E0B9206DEDC3007AF277 /* AddProperty.swift in Sources */,
@@ -763,13 +834,16 @@
 				C03BB7F120AEC71100841ED8 /* MoyaViewController.swift in Sources */,
 				C07C82C220C0ECBE006391BB /* RCHelper.swift in Sources */,
 				96A191B9209CACF700EC037F /* RXFlatMaoViewController.swift in Sources */,
+				C01B0F1020CA1F8900D15252 /* RunLoopViewController.swift in Sources */,
 				96E8329020A482F50062343A /* CoreTextViewController.swift in Sources */,
+				C01B0F0020C782DB00D15252 /* MoreRXViewController.swift in Sources */,
 				9D5E01C62070963000B4B410 /* NSMutableArray+Safe.m in Sources */,
 				96A191BB209CADC000EC037F /* Player.swift in Sources */,
 				9D76E0AD206CF039007AF277 /* GetPropertyViewController.swift in Sources */,
 				96A191BE209D64E600EC037F /* RXAlamofireViewController.swift in Sources */,
 				96E8329220A48B620062343A /* CoreTextStr.swift in Sources */,
 				96A191C2209D73B700EC037F /* EnumDemo.swift in Sources */,
+				C01B0F0420C7A77A00D15252 /* PresentViewController.swift in Sources */,
 				96257780208E3A9F007818A7 /* SignalViewController.swift in Sources */,
 				96A191C5209DB0EF00EC037F /* CombinObservalViewController.swift in Sources */,
 				96CD76E82096B9520024162E /* ToDoModel.swift in Sources */,

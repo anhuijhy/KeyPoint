@@ -20,7 +20,8 @@ class SkipAsyViewController: UIViewController {
         return t
     }()
     
-let bag = DisposeBag()
+    let bag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("fsafdsf\(photos)")
@@ -29,11 +30,11 @@ let bag = DisposeBag()
         isAuthorized
             .skipWhile { (e) -> Bool in
                 if (!e){
-                return true
+                    return true
                 }else{
                     return false
                 }
-        }
+            }
             .take(1)
             .observeOn(MainScheduler.instance)
             .subscribe(onNext: {[weak self] (e) in
@@ -49,47 +50,47 @@ let bag = DisposeBag()
                 
             }) {
                 
-        }.disposed(by: bag)
+            }.disposed(by: bag)
         
-       isAuthorized
-        .distinctUntilChanged()
-        .takeLast(1)
-        .filter { (e) -> Bool in
-            print("ddd\(e)")
-            return !e
-        }.subscribe(onNext: { (e) in
-            
-            self.flash(title: "Cannot access your photo library",
-                       message: "You can authorize access from the Settings.",
-                       callback: { _ in
-                        self.navigationController?.popViewController(animated: true)
-            })
-            
-        }, onError: { (error) in
-            
-        }, onCompleted: {
-            
-        }) {
-            
-        }.disposed(by: bag)
+        isAuthorized
+            .distinctUntilChanged()
+            .takeLast(1)
+            .filter { (e) -> Bool in
+                print("ddd\(e)")
+                return !e
+            }.subscribe(onNext: { (e) in
+                
+                self.flash(title: "Cannot access your photo library",
+                           message: "You can authorize access from the Settings.",
+                           callback: { _ in
+                            self.navigationController?.popViewController(animated: true)
+                })
+                
+            }, onError: { (error) in
+                
+            }, onCompleted: {
+                
+            }) {
+                
+            }.disposed(by: bag)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
 
 extension SkipAsyViewController{
@@ -119,10 +120,10 @@ extension SkipAsyViewController:UITableViewDelegate,UITableViewDataSource{
         imageManager.requestImage(for: asset, targetSize: CGSize.init(width: 200, height: 200), contentMode: PHImageContentMode.aspectFit, options: nil) { (img, info) in
             guard let imgg = img,let _ = info else{return}
             
-//            if cell.representedAssetIdentifier == asset.localIdentifier {
+            //            if cell.representedAssetIdentifier == asset.localIdentifier {
             print("the img is \(imgg)")
             cell?.imageView?.image = imgg
-//            }
+            //            }
         }
         return cell!
     }

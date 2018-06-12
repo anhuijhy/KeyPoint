@@ -18,7 +18,7 @@ class RXTvViewController: UIViewController {
         return tv
     }()
     
-    let items = Observable.just([
+    var items = Observable.just([
         "First item",
         "Second item",
         "Third item"
@@ -26,6 +26,8 @@ class RXTvViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
 
         // Do any additional setup after loading the view.
        _ = items.bind(to: self.tv.rx.items(cellIdentifier: "cid", cellType: UITableViewCell.self)){(row ,e,cell) in
@@ -34,7 +36,7 @@ class RXTvViewController: UIViewController {
         }
         
      _ =   tv.rx.modelSelected(String.self).subscribe(onNext: { (str) in
-            print("the model str is\(str)")
+            print("the model str isddd\(str)")
             
         }, onError: { (err) in
             
@@ -55,6 +57,12 @@ class RXTvViewController: UIViewController {
             
         }
         
+        
+        let btn = UIButton(type: .custom)
+        btn.addTarget(self, action: #selector(btnAction(_:)), for: .touchUpInside)
+        btn.frame = CGRect.init(x: 0, y: 88, width: 40, height: 40)
+        btn.backgroundColor = UIColor.red
+        self.view.addSubview(btn)
     }
 
     override func didReceiveMemoryWarning() {
@@ -78,5 +86,12 @@ extension RXTvViewController:UITableViewDelegate{
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+}
+
+extension RXTvViewController{
+    
+    @objc func btnAction(_ :UIButton) -> Void {
+
     }
 }

@@ -14,4 +14,7 @@ pod 'ObjectMapper'
 pod 'Moya', '~> 11.0'
 pod 'RongCloudIM/IMLib'
 pod 'RongCloudIM/IMKit'
+pod 'ReactiveCocoa'
+pod 'AsyncDisplayKit'
+pod 'SDWebImage'
 end

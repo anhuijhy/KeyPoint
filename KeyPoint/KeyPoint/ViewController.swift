@@ -12,7 +12,7 @@
 import UIKit
 
 class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSource{
-//19
+//25
     let a = [["title":"RT获取属性\\Array越界","id":"0"],
              ["title":"RT BaseOC 获取属性","id":"1"],
              ["title":"交换方法","id":"2"],
@@ -30,6 +30,8 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
              ["title":"Moya","id":"21"],
              ["title":"融云","id":"22"],
              ["title":"融云单聊","id":"23"],
+             ["title":"RunLoop","id":"25"],
+             ["title":"RX更多的demo","id":"24"],
              ["title":"RX 基础","id":"8"],
              ["title":"RX Varable Demo","id":"11"],
              ["title":"RX Skip/AsyAuthoriz","id":"12"],
@@ -150,6 +152,9 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
             let vc = SkipAsyViewController()
             vc.navigationItem.title = title
             self.navigationController?.pushViewController(vc, animated: true)
+//            let vc = CLocationViewController.init(nibName: "CLocationViewController", bundle: nil)
+//            vc.navigationItem.title = title
+//            self.navigationController?.pushViewController(vc, animated: true)
             break
         case 13:
             let vc = RXFlatMaoViewController()
@@ -205,6 +210,16 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
             let vc = RCChatViewController()
             vc.conversationType = .ConversationType_PRIVATE
             vc.targetId = "456"
+            vc.navigationItem.title = title
+            self.navigationController?.pushViewController(vc, animated: true)
+            break
+        case 24:
+            let vc = MoreRXViewController.init(nibName: "MoreRXViewController", bundle: nil)
+            vc.navigationItem.title = title
+            self.navigationController?.pushViewController(vc, animated: true)
+            break
+        case 25:
+            let vc = RunLoopViewController.init(nibName: "RunLoopViewController", bundle: nil)
             vc.navigationItem.title = title
             self.navigationController?.pushViewController(vc, animated: true)
             break
