@@ -24,7 +24,8 @@ class RunLoopViewController: UIViewController {
     @IBAction func asyDisplayKitAction(_ sender: Any) {
         
         let att = NSAttributedString.init(string: "this is a text")
-        let sSize = att.boundingRect(with: CGSize(width: 200, height: 800), options: .truncatesLastVisibleLine, context: nil)
+//        
+//        let sSize = att.boundingRect(with: CGSize(width: 200, height: 800), options: .truncatesLastVisibleLine, context: nil)
         
         let textlabel = ASTextNode()
         textlabel.attributedText = att

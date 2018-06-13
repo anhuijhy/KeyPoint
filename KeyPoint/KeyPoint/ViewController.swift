@@ -12,7 +12,7 @@
 import UIKit
 
 class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSource{
-//25
+//26
     let a = [["title":"RT获取属性\\Array越界","id":"0"],
              ["title":"RT BaseOC 获取属性","id":"1"],
              ["title":"交换方法","id":"2"],
@@ -30,7 +30,8 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
              ["title":"Moya","id":"21"],
              ["title":"融云","id":"22"],
              ["title":"融云单聊","id":"23"],
-             ["title":"RunLoop","id":"25"],
+             ["title":"RunLoop 线程保活/FB Asy 基本UI使用","id":"25"],
+             ["title":"FB Asy TableView使用","id":"26"],
              ["title":"RX更多的demo","id":"24"],
              ["title":"RX 基础","id":"8"],
              ["title":"RX Varable Demo","id":"11"],
@@ -220,6 +221,11 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
             break
         case 25:
             let vc = RunLoopViewController.init(nibName: "RunLoopViewController", bundle: nil)
+            vc.navigationItem.title = title
+            self.navigationController?.pushViewController(vc, animated: true)
+            break
+        case 26:
+            let vc = FBTBViewController()
             vc.navigationItem.title = title
             self.navigationController?.pushViewController(vc, animated: true)
             break

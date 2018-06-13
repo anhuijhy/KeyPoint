@@ -59,6 +59,8 @@
 		9D76E0B9206DEDC3007AF277 /* AddProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D76E0B8206DEDC3007AF277 /* AddProperty.swift */; };
 		9DFBF945207361DA00C2DE9B /* ZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBF944207361DA00C2DE9B /* ZipViewController.swift */; };
 		C00678CE20CFC08D00B9AA9F /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678CD20CFC08D00B9AA9F /* ImageManager.swift */; };
+		C00678D120CFCCF900B9AA9F /* FBTBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D020CFCCF900B9AA9F /* FBTBViewController.swift */; };
+		C00678D320CFD3FB00B9AA9F /* CusCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D220CFD3FB00B9AA9F /* CusCellNode.swift */; };
 		C01B0F0020C782DB00D15252 /* MoreRXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B0EFE20C782DB00D15252 /* MoreRXViewController.swift */; };
 		C01B0F0120C782DB00D15252 /* MoreRXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01B0EFF20C782DB00D15252 /* MoreRXViewController.xib */; };
 		C01B0F0420C7A77A00D15252 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B0F0220C7A77A00D15252 /* PresentViewController.swift */; };
@@ -165,6 +167,8 @@
 		9DFBF944207361DA00C2DE9B /* ZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipViewController.swift; sourceTree = "<group>"; };
 		A194B6CD3C53C662BDCCD3F2 /* Pods-KeyPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyPoint/Pods-KeyPoint.release.xcconfig"; sourceTree = "<group>"; };
 		C00678CD20CFC08D00B9AA9F /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		C00678D020CFCCF900B9AA9F /* FBTBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBTBViewController.swift; sourceTree = "<group>"; };
+		C00678D220CFD3FB00B9AA9F /* CusCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusCellNode.swift; sourceTree = "<group>"; };
 		C01B0EFE20C782DB00D15252 /* MoreRXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreRXViewController.swift; sourceTree = "<group>"; };
 		C01B0EFF20C782DB00D15252 /* MoreRXViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreRXViewController.xib; sourceTree = "<group>"; };
 		C01B0F0220C7A77A00D15252 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
@@ -443,7 +447,8 @@
 				9D76E0AC206CF039007AF277 /* GetPropertyViewController.swift */,
 				9D76E0B4206D4CC8007AF277 /* GetPropertyBaseOCViewController.swift */,
 				9D76E0B6206DD7B8007AF277 /* SwizzeViewController.swift */,
-				C01B0F1220CA1F8E00D15252 /* RunLoop */,
+				C00678CF20CFCCAE00B9AA9F /* FB AsyDisplayKit TV */,
+				C01B0F1220CA1F8E00D15252 /* RunLoop 线程保活/FB AsyDisplayKit */,
 				C01B0EFB20C7829A00D15252 /* MoreRX */,
 				C07C82B420BEBD6D006391BB /* RongClound */,
 				C03BB7EF20AEC6EA00841ED8 /* Mayo */,
@@ -477,6 +482,15 @@
 			path = KeyPoint;
 			sourceTree = "<group>";
 		};
+		C00678CF20CFCCAE00B9AA9F /* FB AsyDisplayKit TV */ = {
+			isa = PBXGroup;
+			children = (
+				C00678D020CFCCF900B9AA9F /* FBTBViewController.swift */,
+				C00678D220CFD3FB00B9AA9F /* CusCellNode.swift */,
+			);
+			name = "FB AsyDisplayKit TV";
+			sourceTree = "<group>";
+		};
 		C01B0EFB20C7829A00D15252 /* MoreRX */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,14 +502,14 @@
 			name = MoreRX;
 			sourceTree = "<group>";
 		};
-		C01B0F1220CA1F8E00D15252 /* RunLoop */ = {
+		C01B0F1220CA1F8E00D15252 /* RunLoop 线程保活/FB AsyDisplayKit */ = {
 			isa = PBXGroup;
 			children = (
 				C01B0F0E20CA1F8900D15252 /* RunLoopViewController.swift */,
 				C01B0F0F20CA1F8900D15252 /* RunLoopViewController.xib */,
 				C00678CD20CFC08D00B9AA9F /* ImageManager.swift */,
 			);
-			name = RunLoop;
+			name = "RunLoop 线程保活/FB AsyDisplayKit";
 			sourceTree = "<group>";
 		};
 		C03BB7EA20AD4F4D00841ED8 /* Realm */ = {
@@ -820,6 +834,7 @@
 				C01B0F0D20C90E2B00D15252 /* CLocation+RX.swift in Sources */,
 				96A2CE6420A1F3E700F88100 /* File.swift in Sources */,
 				9625778C20938107007818A7 /* ToDoDemoViewController.swift in Sources */,
+				C00678D320CFD3FB00B9AA9F /* CusCellNode.swift in Sources */,
 				96292FCA2079F4050013F72C /* RXViewController.swift in Sources */,
 				C03BB7EE20AD50DF00841ED8 /* Person.swift in Sources */,
 				962577952094DDB3007818A7 /* ToDoCell.swift in Sources */,
@@ -829,6 +844,7 @@
 				96292FC5207932E90013F72C /* GaoJieViewController.swift in Sources */,
 				9D76E0B9206DEDC3007AF277 /* AddProperty.swift in Sources */,
 				9625778F209383D6007818A7 /* ToDemoHelperViewController.swift in Sources */,
+				C00678D120CFCCF900B9AA9F /* FBTBViewController.swift in Sources */,
 				9D76E0B3206D4B7F007AF277 /* OCViewController.m in Sources */,
 				96A191B4209C137C00EC037F /* PHPhotoLibrary+RX.swift in Sources */,
 				C03BB7F120AEC71100841ED8 /* MoyaViewController.swift in Sources */,

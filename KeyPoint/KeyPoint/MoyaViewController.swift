@@ -127,7 +127,6 @@ class MoyaViewController: UIViewController {
                     
                 }
 
-                
             }else{
                 
                 
