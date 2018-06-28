@@ -61,6 +61,10 @@
 		C00678CE20CFC08D00B9AA9F /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678CD20CFC08D00B9AA9F /* ImageManager.swift */; };
 		C00678D120CFCCF900B9AA9F /* FBTBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D020CFCCF900B9AA9F /* FBTBViewController.swift */; };
 		C00678D320CFD3FB00B9AA9F /* CusCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D220CFD3FB00B9AA9F /* CusCellNode.swift */; };
+		C00678D620D2502800B9AA9F /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D520D2502800B9AA9F /* FriendViewController.swift */; };
+		C00678D820D2530E00B9AA9F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D720D2530E00B9AA9F /* CommentCell.swift */; };
+		C00678DA20D253C800B9AA9F /* CommentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D920D253C800B9AA9F /* CommentHeaderView.swift */; };
+		C00678DC20D2557500B9AA9F /* CommentHeaderPicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678DB20D2557500B9AA9F /* CommentHeaderPicView.swift */; };
 		C01B0F0020C782DB00D15252 /* MoreRXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B0EFE20C782DB00D15252 /* MoreRXViewController.swift */; };
 		C01B0F0120C782DB00D15252 /* MoreRXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01B0EFF20C782DB00D15252 /* MoreRXViewController.xib */; };
 		C01B0F0420C7A77A00D15252 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B0F0220C7A77A00D15252 /* PresentViewController.swift */; };
@@ -81,6 +85,9 @@
 		C07C82BE20BFF884006391BB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07C82BD20BFF884006391BB /* UserNotifications.framework */; };
 		C07C82C020BFF89F006391BB /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07C82BF20BFF89E006391BB /* UserNotificationsUI.framework */; };
 		C07C82C220C0ECBE006391BB /* RCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C82C120C0ECBE006391BB /* RCHelper.swift */; };
+		C0BDB4CE20E35A9E0004C823 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB4CD20E35A9E0004C823 /* CoreDataViewController.swift */; };
+		C0BDB4D020E36F5D0004C823 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB4CF20E36F5D0004C823 /* CoreDataManager.swift */; };
+		C0BDB4D320E39C640004C823 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB4D120E39C640004C823 /* CoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,6 +176,10 @@
 		C00678CD20CFC08D00B9AA9F /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		C00678D020CFCCF900B9AA9F /* FBTBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBTBViewController.swift; sourceTree = "<group>"; };
 		C00678D220CFD3FB00B9AA9F /* CusCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusCellNode.swift; sourceTree = "<group>"; };
+		C00678D520D2502800B9AA9F /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		C00678D720D2530E00B9AA9F /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		C00678D920D253C800B9AA9F /* CommentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentHeaderView.swift; sourceTree = "<group>"; };
+		C00678DB20D2557500B9AA9F /* CommentHeaderPicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentHeaderPicView.swift; sourceTree = "<group>"; };
 		C01B0EFE20C782DB00D15252 /* MoreRXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreRXViewController.swift; sourceTree = "<group>"; };
 		C01B0EFF20C782DB00D15252 /* MoreRXViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreRXViewController.xib; sourceTree = "<group>"; };
 		C01B0F0220C7A77A00D15252 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +200,9 @@
 		C07C82BD20BFF884006391BB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		C07C82BF20BFF89E006391BB /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		C07C82C120C0ECBE006391BB /* RCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCHelper.swift; sourceTree = "<group>"; };
+		C0BDB4CD20E35A9E0004C823 /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
+		C0BDB4CF20E36F5D0004C823 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		C0BDB4D220E39C640004C823 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		F07E1DE0CBEA6D56E438FDC0 /* Pods_KeyPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -447,8 +461,10 @@
 				9D76E0AC206CF039007AF277 /* GetPropertyViewController.swift */,
 				9D76E0B4206D4CC8007AF277 /* GetPropertyBaseOCViewController.swift */,
 				9D76E0B6206DD7B8007AF277 /* SwizzeViewController.swift */,
+				C0BDB4CC20E35A6E0004C823 /* CoreData */,
+				C00678D420D24EFF00B9AA9F /* 仿朋友圈 */,
 				C00678CF20CFCCAE00B9AA9F /* FB AsyDisplayKit TV */,
-				C01B0F1220CA1F8E00D15252 /* RunLoop 线程保活/FB AsyDisplayKit */,
+				C01B0F1220CA1F8E00D15252 /* RunLoop 线程保活/依赖/FB AsyDisplayKit */,
 				C01B0EFB20C7829A00D15252 /* MoreRX */,
 				C07C82B420BEBD6D006391BB /* RongClound */,
 				C03BB7EF20AEC6EA00841ED8 /* Mayo */,
@@ -491,6 +507,17 @@
 			name = "FB AsyDisplayKit TV";
 			sourceTree = "<group>";
 		};
+		C00678D420D24EFF00B9AA9F /* 仿朋友圈 */ = {
+			isa = PBXGroup;
+			children = (
+				C00678D520D2502800B9AA9F /* FriendViewController.swift */,
+				C00678D720D2530E00B9AA9F /* CommentCell.swift */,
+				C00678D920D253C800B9AA9F /* CommentHeaderView.swift */,
+				C00678DB20D2557500B9AA9F /* CommentHeaderPicView.swift */,
+			);
+			name = "仿朋友圈";
+			sourceTree = "<group>";
+		};
 		C01B0EFB20C7829A00D15252 /* MoreRX */ = {
 			isa = PBXGroup;
 			children = (
@@ -502,14 +529,14 @@
 			name = MoreRX;
 			sourceTree = "<group>";
 		};
-		C01B0F1220CA1F8E00D15252 /* RunLoop 线程保活/FB AsyDisplayKit */ = {
+		C01B0F1220CA1F8E00D15252 /* RunLoop 线程保活/依赖/FB AsyDisplayKit */ = {
 			isa = PBXGroup;
 			children = (
 				C01B0F0E20CA1F8900D15252 /* RunLoopViewController.swift */,
 				C01B0F0F20CA1F8900D15252 /* RunLoopViewController.xib */,
 				C00678CD20CFC08D00B9AA9F /* ImageManager.swift */,
 			);
-			name = "RunLoop 线程保活/FB AsyDisplayKit";
+			name = "RunLoop 线程保活/依赖/FB AsyDisplayKit";
 			sourceTree = "<group>";
 		};
 		C03BB7EA20AD4F4D00841ED8 /* Realm */ = {
@@ -539,6 +566,16 @@
 				C07C82BB20BFEB31006391BB /* ChatCell.swift */,
 			);
 			name = RongClound;
+			sourceTree = "<group>";
+		};
+		C0BDB4CC20E35A6E0004C823 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C0BDB4CD20E35A9E0004C823 /* CoreDataViewController.swift */,
+				C0BDB4CF20E36F5D0004C823 /* CoreDataManager.swift */,
+				C0BDB4D120E39C640004C823 /* CoreData.xcdatamodeld */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -720,6 +757,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -744,6 +782,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -817,6 +856,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BDB4CE20E35A9E0004C823 /* CoreDataViewController.swift in Sources */,
+				C0BDB4D320E39C640004C823 /* CoreData.xcdatamodeld in Sources */,
+				C00678DC20D2557500B9AA9F /* CommentHeaderPicView.swift in Sources */,
 				96257786209213A6007818A7 /* Static_const_extern_ViewController.m in Sources */,
 				9DFBF945207361DA00C2DE9B /* ZipViewController.swift in Sources */,
 				968EE8BC2082449A0031FAE3 /* MoreThreadViewController.swift in Sources */,
@@ -835,9 +877,11 @@
 				96A2CE6420A1F3E700F88100 /* File.swift in Sources */,
 				9625778C20938107007818A7 /* ToDoDemoViewController.swift in Sources */,
 				C00678D320CFD3FB00B9AA9F /* CusCellNode.swift in Sources */,
+				C00678DA20D253C800B9AA9F /* CommentHeaderView.swift in Sources */,
 				96292FCA2079F4050013F72C /* RXViewController.swift in Sources */,
 				C03BB7EE20AD50DF00841ED8 /* Person.swift in Sources */,
 				962577952094DDB3007818A7 /* ToDoCell.swift in Sources */,
+				C00678D620D2502800B9AA9F /* FriendViewController.swift in Sources */,
 				C07C82BC20BFEB31006391BB /* ChatCell.swift in Sources */,
 				C00678CE20CFC08D00B9AA9F /* ImageManager.swift in Sources */,
 				9D5E01C92071C94400B4B410 /* OCObject.m in Sources */,
@@ -857,6 +901,7 @@
 				96A191BB209CADC000EC037F /* Player.swift in Sources */,
 				9D76E0AD206CF039007AF277 /* GetPropertyViewController.swift in Sources */,
 				96A191BE209D64E600EC037F /* RXAlamofireViewController.swift in Sources */,
+				C00678D820D2530E00B9AA9F /* CommentCell.swift in Sources */,
 				96E8329220A48B620062343A /* CoreTextStr.swift in Sources */,
 				96A191C2209D73B700EC037F /* EnumDemo.swift in Sources */,
 				C01B0F0420C7A77A00D15252 /* PresentViewController.swift in Sources */,
@@ -866,6 +911,7 @@
 				96A191B6209C242000EC037F /* Flash.swift in Sources */,
 				C07C82B820BF9AEF006391BB /* RCListViewController.swift in Sources */,
 				96CD76ED20970CAB0024162E /* ViewController.swift in Sources */,
+				C0BDB4D020E36F5D0004C823 /* CoreDataManager.swift in Sources */,
 				C03BB7EC20AD4F7100841ED8 /* RealmViewController.swift in Sources */,
 				9D76E0B7206DD7B8007AF277 /* SwizzeViewController.swift in Sources */,
 				9D76E09B206CD863007AF277 /* AppDelegate.swift in Sources */,
@@ -1169,6 +1215,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0BDB4D120E39C640004C823 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0BDB4D220E39C640004C823 /* Model.xcdatamodel */,
+			);
+			currentVersion = C0BDB4D220E39C640004C823 /* Model.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9D76E08F206CD863007AF277 /* Project object */;
 }

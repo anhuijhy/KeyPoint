@@ -46,6 +46,14 @@
                         <action selector="asyDisplayKitImgV:" destination="-1" eventType="touchUpInside" id="pFx-wW-PZI"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="der-jo-mNf">
+                    <rect key="frame" x="126" y="260" width="125" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="RunLoop NSTimer"/>
+                    <connections>
+                        <action selector="RunLoop_NSTimer:" destination="-1" eventType="touchUpInside" id="omq-cC-RiI"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

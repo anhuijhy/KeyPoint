@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         jhye.m = "justest"
 
         app.saveContext()
-
+ 
 
         let request = NSFetchRequest<NSFetchRequestResult>.init(entityName: "JHY")
         do {

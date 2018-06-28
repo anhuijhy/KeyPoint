@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:KeyPoint/JhyEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:KeyPoint/JhyEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:WZQ+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:WZQ+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:fff/fff/JHY+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:fff/fff/JHY+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:../fff/fff.xcodeproj">
    </FileRef>
    <FileRef

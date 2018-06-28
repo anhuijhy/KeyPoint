@@ -17,4 +17,5 @@ pod 'RongCloudIM/IMKit'
 pod 'ReactiveCocoa'
 pod 'AsyncDisplayKit'
 pod 'SDWebImage'
+pod 'SnapKit'
 end

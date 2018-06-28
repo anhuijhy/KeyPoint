@@ -57,7 +57,7 @@ class RXViewController: UIViewController {
             
         }) {
             
-                print("回收")
+        print("回收")
         }.disposed(by: bag)
         
         delay(5) {

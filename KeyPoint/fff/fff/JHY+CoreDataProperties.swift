@@ -1,9 +1,8 @@
 //
 //  JHY+CoreDataProperties.swift
-//  fff
+//  
 //
-//  Created by BST-MAC on 2018/5/25.
-//  Copyright © 2018年 BST-MAC. All rights reserved.
+//  Created by BST-MAC on 2018/6/26.
 //
 //
 
@@ -20,5 +19,6 @@ extension JHY {
     @NSManaged public var m: String?
     @NSManaged public var name: String?
     @NSManaged public var uid: String?
+    @NSManaged public var childs: WZQ?
 
 }

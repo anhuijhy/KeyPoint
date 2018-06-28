@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E202" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="JHY" representedClassName="JHY" syncable="YES">
         <attribute name="m" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="childs" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WZQ" inverseName="master_jhy" inverseEntity="WZQ" syncable="YES"/>
     </entity>
-    <fetchRequest name="fetchRequest" entity="JHY" predicateString="name CONTAINS &quot;&quot;"/>
+    <entity name="WZQ" representedClassName="WZQ" syncable="YES" codeGenerationType="class">
+        <attribute name="cid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wzqname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="master_jhy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="JHY" inverseName="childs" inverseEntity="JHY" syncable="YES"/>
+    </entity>
+    <fetchRequest name="fetchRequest" entity="JHY" predicateString="name == &quot;123&quot;"/>
     <elements>
-        <element name="JHY" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="JHY" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="WZQ" positionX="-56" positionY="54" width="128" height="90"/>
     </elements>
 </model>

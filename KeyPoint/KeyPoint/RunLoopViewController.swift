@@ -24,7 +24,7 @@ class RunLoopViewController: UIViewController {
     @IBAction func asyDisplayKitAction(_ sender: Any) {
         
         let att = NSAttributedString.init(string: "this is a text")
-//        
+//
 //        let sSize = att.boundingRect(with: CGSize(width: 200, height: 800), options: .truncatesLastVisibleLine, context: nil)
         
         let textlabel = ASTextNode()
@@ -46,6 +46,20 @@ class RunLoopViewController: UIViewController {
         self.view.addSubnode(u)
     }
     
+    //主线程中的nstimer会自动加到Runlood中，而子线程则不会。需要手动处理
+    @IBAction func RunLoop_NSTimer(_ sender: Any) {
+        
+        DispatchQueue.global().async {
+            
+            let t = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { (t) in
+                
+                print("nstimer")
+            })
+            t.fire()
+            //如果不加这句只会运行一次，就死了。这样处理runloop就会“坚持工作”
+            RunLoop.current.run()
+        }
+    }
     
     
     override func viewDidLoad() {

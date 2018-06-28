@@ -13,8 +13,6 @@
 		C00D2A8420B7AF7C000E884E /* fff.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C00D2A8220B7AF7C000E884E /* fff.xcdatamodeld */; };
 		C00D2A8620B7AF7E000E884E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00D2A8520B7AF7E000E884E /* Assets.xcassets */; };
 		C00D2A8920B7AF7E000E884E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00D2A8720B7AF7E000E884E /* LaunchScreen.storyboard */; };
-		C01D766020B803DA00CDEA7F /* JHY+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D765E20B803DA00CDEA7F /* JHY+CoreDataClass.swift */; };
-		C01D766120B803DA00CDEA7F /* JHY+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D765F20B803DA00CDEA7F /* JHY+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +25,6 @@
 		C00D2A8820B7AF7E000E884E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C00D2A8A20B7AF7E000E884E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01D763420B7F77700CDEA7F /* fff 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "fff 2.xcdatamodel"; sourceTree = "<group>"; };
-		C01D765E20B803DA00CDEA7F /* JHY+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHY+CoreDataClass.swift"; sourceTree = "<group>"; };
-		C01D765F20B803DA00CDEA7F /* JHY+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHY+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +41,6 @@
 		C00D2A6F20B7AF7C000E884E = {
 			isa = PBXGroup;
 			children = (
-				C01D765E20B803DA00CDEA7F /* JHY+CoreDataClass.swift */,
-				C01D765F20B803DA00CDEA7F /* JHY+CoreDataProperties.swift */,
 				C00D2A7A20B7AF7C000E884E /* fff */,
 				C00D2A7920B7AF7C000E884E /* Products */,
 			);
@@ -146,8 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C00D2A7E20B7AF7C000E884E /* ViewController.swift in Sources */,
-				C01D766120B803DA00CDEA7F /* JHY+CoreDataProperties.swift in Sources */,
-				C01D766020B803DA00CDEA7F /* JHY+CoreDataClass.swift in Sources */,
 				C00D2A7C20B7AF7C000E884E /* AppDelegate.swift in Sources */,
 				C00D2A8420B7AF7C000E884E /* fff.xcdatamodeld in Sources */,
 			);
