@@ -17,7 +17,8 @@ class RCListViewController: RCConversationListViewController {
         
    self.setDisplayConversationTypes([1,2,3,4,5,6,7,8,9])
         
-//        self.setCollectionConversationType([RCConversationType.ConversationType_DISCUSSION,RCConversationType.ConversationType_GROUP])
+//self.setCollectionConversationType([RCConversationType.ConversationType_DISCUSSION,RCConversationType.ConversationType_GROUP])
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -50,6 +51,22 @@ extension RCListViewController{
         vc.navigationItem.title = model.conversationTitle
         self.navigationController?.pushViewController(vc, animated: true)
  
+    }
+    
+    
+
+    
+//    - (RCConversationBaseCell *)rcConversationListTableView:(UITableView *)tableView
+//    cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+
+    
+    
+    override func rcConversationListTableView(_ tableView: UITableView!, cellForRowAt indexPath: IndexPath!) -> RCConversationBaseCell! {
+        
+        print("会话列表")
+        
+        return super.rcConversationListTableView(tableView, cellForRowAt: indexPath)
+        
     }
     
 }

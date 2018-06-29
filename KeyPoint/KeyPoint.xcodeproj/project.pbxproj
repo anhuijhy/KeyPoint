@@ -88,6 +88,7 @@
 		C0BDB4CE20E35A9E0004C823 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB4CD20E35A9E0004C823 /* CoreDataViewController.swift */; };
 		C0BDB4D020E36F5D0004C823 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB4CF20E36F5D0004C823 /* CoreDataManager.swift */; };
 		C0BDB4D320E39C640004C823 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB4D120E39C640004C823 /* CoreData.xcdatamodeld */; };
+		C0BDB4D520E4E3FC0004C823 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB4D420E4E3FC0004C823 /* ConversationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,6 +204,7 @@
 		C0BDB4CD20E35A9E0004C823 /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
 		C0BDB4CF20E36F5D0004C823 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		C0BDB4D220E39C640004C823 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C0BDB4D420E4E3FC0004C823 /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
 		F07E1DE0CBEA6D56E438FDC0 /* Pods_KeyPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -564,6 +566,7 @@
 				C07C82B920BFA181006391BB /* RCChatViewController.swift */,
 				C07C82C120C0ECBE006391BB /* RCHelper.swift */,
 				C07C82BB20BFEB31006391BB /* ChatCell.swift */,
+				C0BDB4D420E4E3FC0004C823 /* ConversationCell.swift */,
 			);
 			name = RongClound;
 			sourceTree = "<group>";
@@ -900,6 +903,7 @@
 				9D5E01C62070963000B4B410 /* NSMutableArray+Safe.m in Sources */,
 				96A191BB209CADC000EC037F /* Player.swift in Sources */,
 				9D76E0AD206CF039007AF277 /* GetPropertyViewController.swift in Sources */,
+				C0BDB4D520E4E3FC0004C823 /* ConversationCell.swift in Sources */,
 				96A191BE209D64E600EC037F /* RXAlamofireViewController.swift in Sources */,
 				C00678D820D2530E00B9AA9F /* CommentCell.swift in Sources */,
 				96E8329220A48B620062343A /* CoreTextStr.swift in Sources */,
