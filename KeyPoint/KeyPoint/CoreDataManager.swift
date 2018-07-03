@@ -24,7 +24,7 @@ class CoreDataManager: NSObject {
             try coordinate.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: [NSMigratePersistentStoresAutomaticallyOption:true,NSMigratePersistentStoresAutomaticallyOption:true])
         } catch let e{
             
-            assertionFailure("the err is \(e)")
+            print("the err is \(e)")
         }
         return coordinate
     }()

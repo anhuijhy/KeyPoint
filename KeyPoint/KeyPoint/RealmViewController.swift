@@ -60,12 +60,12 @@ class RealmViewController: UIViewController {
         }
         */
         self.setUpUI()
-        let dogM = Mapper<DogModel>().map(JSON: ["name":"i'm Jason"])
-        print("the dog model is \(dogM?.name)")
-        let alertVC = UIAlertController.init(title: "Msg", message: dogM?.name, preferredStyle: .alert)
-        self.present(alertVC, animated: true) {
-            
-        }
+//        let dogM = Mapper<DogModel>().map(JSON: ["name":"i'm Jason"])
+//        print("the dog model is \(dogM?.name)")
+//        let alertVC = UIAlertController.init(title: "Msg", message: dogM?.name, preferredStyle: .alert)
+//        self.present(alertVC, animated: true) {
+//            
+//        }
     }
 
     override func didReceiveMemoryWarning() {

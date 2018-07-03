@@ -107,21 +107,24 @@ extension AppDelegate{
             print("connnect incorrect")
         }
         
+        
+//                RCIM.shared().connect(withToken: "WmJ8w0HA8UHWtBUwgxwkEZkaiBnOfVWS4c4ny9vGjX2DjBgdTx7/zPHzJSeZ/97cCJhCPhPGu/w=", success: { (str) in
+//
+//                    print("connection suc")
+//
+//                }, error: { (err) in
+//                    print("connnect err")
+//                }) {
+//                    print("connnect incorrect")
+//                }
+        
         RCIM.shared().receiveMessageDelegate = self
         
         RCIM.shared().userInfoDataSource = RCHelper.helper
         
         RCIM.shared().enablePersistentUserInfoCache = true
         
-//        RCIM.shared().connect(withToken: "WmJ8w0HA8UHWtBUwgxwkEZkaiBnOfVWS4c4ny9vGjX2DjBgdTx7/zPHzJSeZ/97cCJhCPhPGu/w=", success: { (str) in
-//
-//            print("connection suc")
-//
-//        }, error: { (err) in
-//            print("connnect err")
-//        }) {
-//            print("connnect incorrect")
-//        }
+
  
         
     }
@@ -132,7 +135,7 @@ extension AppDelegate:RCIMReceiveMessageDelegate{
     
     func onRCIMReceive(_ message: RCMessage!, left: Int32) {
         
-        print("i have recived msg\(message.messageId) left =\(left) userinfo=\(message.content.senderUserInfo.name) \(message.content.senderUserInfo.userId) \(message.content.senderUserInfo.portraitUri) and revice status =\(message.receivedStatus.rawValue)")
+//        print("i have recived msg\(message.messageId) left =\(left) userinfo=\(message.content.senderUserInfo.name) \(message.content.senderUserInfo.userId) \(message.content.senderUserInfo.portraitUri) and revice status =\(message.receivedStatus.rawValue)")
         
         let m = RCConversation.init()
         m.conversationType = .ConversationType_PRIVATE

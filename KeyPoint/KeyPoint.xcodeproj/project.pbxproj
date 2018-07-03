@@ -89,6 +89,8 @@
 		C0BDB4D020E36F5D0004C823 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB4CF20E36F5D0004C823 /* CoreDataManager.swift */; };
 		C0BDB4D320E39C640004C823 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB4D120E39C640004C823 /* CoreData.xcdatamodeld */; };
 		C0BDB4D520E4E3FC0004C823 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB4D420E4E3FC0004C823 /* ConversationCell.swift */; };
+		C0BDB51B20EA28F10004C823 /* JhyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB51A20EA28F10004C823 /* JhyMessage.swift */; };
+		C0BDB51D20EB56250004C823 /* JhyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB51C20EB56250004C823 /* JhyMessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +207,8 @@
 		C0BDB4CF20E36F5D0004C823 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		C0BDB4D220E39C640004C823 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		C0BDB4D420E4E3FC0004C823 /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		C0BDB51A20EA28F10004C823 /* JhyMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JhyMessage.swift; sourceTree = "<group>"; };
+		C0BDB51C20EB56250004C823 /* JhyMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JhyMessageCell.swift; sourceTree = "<group>"; };
 		F07E1DE0CBEA6D56E438FDC0 /* Pods_KeyPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -567,6 +571,8 @@
 				C07C82C120C0ECBE006391BB /* RCHelper.swift */,
 				C07C82BB20BFEB31006391BB /* ChatCell.swift */,
 				C0BDB4D420E4E3FC0004C823 /* ConversationCell.swift */,
+				C0BDB51A20EA28F10004C823 /* JhyMessage.swift */,
+				C0BDB51C20EB56250004C823 /* JhyMessageCell.swift */,
 			);
 			name = RongClound;
 			sourceTree = "<group>";
@@ -872,6 +878,7 @@
 				96A191C9209DE05200EC037F /* RXCocoaViewController.swift in Sources */,
 				C07C82BA20BFA181006391BB /* RCChatViewController.swift in Sources */,
 				96A191D0209EACAB00EC037F /* RXTvViewController.swift in Sources */,
+				C0BDB51D20EB56250004C823 /* JhyMessageCell.swift in Sources */,
 				96CD76EB20970C140024162E /* NFCViewController.swift in Sources */,
 				96A191C0209D651400EC037F /* ToDoRouter.swift in Sources */,
 				9D76E0B5206D4CC8007AF277 /* GetPropertyBaseOCViewController.swift in Sources */,
@@ -882,6 +889,7 @@
 				C00678D320CFD3FB00B9AA9F /* CusCellNode.swift in Sources */,
 				C00678DA20D253C800B9AA9F /* CommentHeaderView.swift in Sources */,
 				96292FCA2079F4050013F72C /* RXViewController.swift in Sources */,
+				C0BDB51B20EA28F10004C823 /* JhyMessage.swift in Sources */,
 				C03BB7EE20AD50DF00841ED8 /* Person.swift in Sources */,
 				962577952094DDB3007818A7 /* ToDoCell.swift in Sources */,
 				C00678D620D2502800B9AA9F /* FriendViewController.swift in Sources */,
