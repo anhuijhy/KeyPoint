@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5C9707EFD98BF1093CD9B477F463D231"
-               BuildableName = "Pods_KeyPoint.framework"
-               BlueprintName = "Pods-KeyPoint"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "C0BDB52620EF05280004C823"
+               BuildableName = "WKWebJS.app"
+               BlueprintName = "WKWebJS"
+               ReferencedContainer = "container:WKWebJS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C0BDB52620EF05280004C823"
+            BuildableName = "WKWebJS.app"
+            BlueprintName = "WKWebJS"
+            ReferencedContainer = "container:WKWebJS.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5C9707EFD98BF1093CD9B477F463D231"
-            BuildableName = "Pods_KeyPoint.framework"
-            BlueprintName = "Pods-KeyPoint"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "C0BDB52620EF05280004C823"
+            BuildableName = "WKWebJS.app"
+            BlueprintName = "WKWebJS"
+            ReferencedContainer = "container:WKWebJS.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,6 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C0BDB52620EF05280004C823"
+            BuildableName = "WKWebJS.app"
+            BlueprintName = "WKWebJS"
+            ReferencedContainer = "container:WKWebJS.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

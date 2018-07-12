@@ -137,9 +137,7 @@ extension AppDelegate:RCIMReceiveMessageDelegate{
         
 //        print("i have recived msg\(message.messageId) left =\(left) userinfo=\(message.content.senderUserInfo.name) \(message.content.senderUserInfo.userId) \(message.content.senderUserInfo.portraitUri) and revice status =\(message.receivedStatus.rawValue)")
         
-        let m = RCConversation.init()
-        m.conversationType = .ConversationType_PRIVATE
-        
+        print("the msg object name is \(message.objectName)")
         let unReadCount = RCIMClient.shared().getTotalUnreadCount()
         print("unread count is\(unReadCount)")
     }

@@ -1,21 +1,22 @@
 //
-//  CoreDataViewController.swift
+//  JLTestViewController.swift
 //  KeyPoint
 //
-//  Created by BST-MAC on 2018/6/27.
+//  Created by BST-MAC on 2018/7/6.
 //  Copyright © 2018年 Jason. All rights reserved.
 //
 
 import UIKit
 
-class CoreDataViewController: UIViewController {
+class JLTestViewController: UIViewController {
 
+    var userID:String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        CoreDataManager.manager.addEntity("JhyEntity")
+        self.navigationItem.title = "JLRountes Test"
     }
 
     override func didReceiveMemoryWarning() {

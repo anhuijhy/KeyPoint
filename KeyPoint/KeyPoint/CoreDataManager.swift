@@ -14,6 +14,7 @@ class CoreDataManager: NSObject {
     
     lazy var objectContext: NSManagedObjectContext = {
         let context = NSManagedObjectContext.init(concurrencyType: .mainQueueConcurrencyType)
+        context.persistentStoreCoordinator = CoreDataManager.manager.coordinate
         return context
     }()
     
@@ -21,7 +22,7 @@ class CoreDataManager: NSObject {
         let storeURL = self.fileDocPath().appendingPathComponent("coreData.sqlite")
         let coordinate = NSPersistentStoreCoordinator.init(managedObjectModel: self.objeectModel)
         do {
-            try coordinate.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: [NSMigratePersistentStoresAutomaticallyOption:true,NSMigratePersistentStoresAutomaticallyOption:true])
+            try coordinate.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: [NSMigratePersistentStoresAutomaticallyOption:true,NSInferMappingModelAutomaticallyOption:true])
         } catch let e{
             
             print("the err is \(e)")
@@ -31,7 +32,7 @@ class CoreDataManager: NSObject {
     
     lazy var objeectModel: NSManagedObjectModel = {
         
-        let objectM = NSManagedObjectModel.init(contentsOf: Bundle.main.url(forResource: "coreData", withExtension: "momd")!)
+        let objectM = NSManagedObjectModel.init(contentsOf: Bundle.main.url(forResource: "CoreData", withExtension: "momd")!)
         return objectM!
     }()
     static let manager = CoreDataManager()
@@ -46,6 +47,7 @@ extension CoreDataManager{
     /// doc沙盒
     func fileDocPath() -> URL {
         
+        print("the sqlite path \(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last!)")
         return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last!
     }
     
@@ -90,6 +92,7 @@ extension CoreDataManager{
     //增加
     func addEntity(_ entityName:String) -> Void{
         //==Method One
+        print("the objectContext is \(CoreDataManager.manager)")
         let Entity = NSEntityDescription.entity(forEntityName: entityName, in: CoreDataManager.manager.objectContext)
         let classEntity = NSManagedObject(entity: Entity!, insertInto: CoreDataManager.manager.objectContext)
         
@@ -104,15 +107,68 @@ extension CoreDataManager{
         
     }
     
+    
+    //增加New
+    func addNewEntity(_ entityName:String) -> Void{
+        //==Method One
+        print("the objectContext is \(CoreDataManager.manager)")
+        let Entity = NSEntityDescription.entity(forEntityName: entityName, in: CoreDataManager.manager.objectContext)
+        let classEntity = NSManagedObject(entity: Entity!, insertInto: CoreDataManager.manager.objectContext)
+        
+        classEntity.setValue("Jason", forKey: "name")
+        
+        //保存实体对象
+        //            try CoreDataManager.manager.objectContext.save()
+        CoreDataManager.manager.saveContext()
+        
+        //==Method Two
+        //          let jhye = JhyEntity.init(entity: NSEntityDescription.entity(forEntityName: "JhyEntity", in: CoreDataManager.manager.objectContext)!, insertInto: CoreDataManager.manager.objectContext)
+        
+    }
+    
 }
 
 extension CoreDataManager{
     
+
     //===改
     func modifyEntityData(_ entityClass:NSManagedObject, entityName name:String){
         
         let request = NSFetchRequest<NSFetchRequestResult>.init(entityName:name)
-        request.predicate = NSPredicate(format: "name = jhy", "")
+        request.predicate = NSPredicate(format: "name = Jason", "")
+        
+        let asyncFecthRequest = NSAsynchronousFetchRequest(fetchRequest: request) { (result: NSAsynchronousFetchResult!) in
+            
+            let fetchObject  = result.finalResult! as! [JhyEntity]
+            
+            for c  in fetchObject{
+                
+                c.name = "qazwertdfxcvg"
+                CoreDataManager.manager.saveContext()
+                
+            }
+        }
+        
+        // 执行异步请求调用execute
+        do {
+            
+            try CoreDataManager.manager.objectContext.execute(asyncFecthRequest)
+            
+        } catch  {
+            
+            print("error")
+        }
+    }
+    
+    
+    
+    
+    //===查查查查查
+    
+    func queryEntityData(_ entityClass:NSManagedObject, entityName name:String){
+        
+        let request = NSFetchRequest<NSFetchRequestResult>.init(entityName:name)
+        request.predicate = NSPredicate(format: "name = Jason", "")
         
         let asyncFecthRequest = NSAsynchronousFetchRequest(fetchRequest: request) { (result: NSAsynchronousFetchResult!) in
             

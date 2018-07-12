@@ -23,27 +23,27 @@ class RunLoopViewController: UIViewController {
     
     @IBAction func asyDisplayKitAction(_ sender: Any) {
         
-        let att = NSAttributedString.init(string: "this is a text")
-//
-//        let sSize = att.boundingRect(with: CGSize(width: 200, height: 800), options: .truncatesLastVisibleLine, context: nil)
-        
-        let textlabel = ASTextNode()
-        textlabel.attributedText = att
-        textlabel.backgroundColor = UIColor.red
-//        textlabel.frame = CGRect.init(x: 0, y: 200, width: sSize.width, height: sSize.height)
-        textlabel.layoutThatFits(ASSizeRange(min: CGSize.zero, max: CGSize(width: 200, height: 800)))
-        textlabel.frame = CGRect(x: 0, y: 200, width: textlabel.calculatedSize.width, height: textlabel.calculatedSize.height)
-        
-        self.view.addSubnode(textlabel)
+//        let att = NSAttributedString.init(string: "this is a text")
+////
+////        let sSize = att.boundingRect(with: CGSize(width: 200, height: 800), options: .truncatesLastVisibleLine, context: nil)
+//        
+//        let textlabel = ASTextNode()
+//        textlabel.attributedText = att
+//        textlabel.backgroundColor = UIColor.red
+////        textlabel.frame = CGRect.init(x: 0, y: 200, width: sSize.width, height: sSize.height)
+//        textlabel.layoutThatFits(ASSizeRange(min: CGSize.zero, max: CGSize(width: 200, height: 800)))
+//        textlabel.frame = CGRect(x: 0, y: 200, width: textlabel.calculatedSize.width, height: textlabel.calculatedSize.height)
+//        
+//        self.view.addSubnode(textlabel)
         
     }
     
     @IBAction func asyDisplayKitImgV(_ sender: Any) {
     
-        let u = ASNetworkImageNode(cache: nil, downloader: ImageManager.sharedManager)
-        u.frame = CGRect.init(x: 0, y: 230, width: 300, height: 100)
-        u.url = URL.init(string: "http://f.hiphotos.baidu.com/image/pic/item/03087bf40ad162d9175e639f1ddfa9ec8b13cd85.jpg")
-        self.view.addSubnode(u)
+//        let u = ASNetworkImageNode(cache: nil, downloader: ImageManager.sharedManager)
+//        u.frame = CGRect.init(x: 0, y: 230, width: 300, height: 100)
+//        u.url = URL.init(string: "http://f.hiphotos.baidu.com/image/pic/item/03087bf40ad162d9175e639f1ddfa9ec8b13cd85.jpg")
+//        self.view.addSubnode(u)
     }
     
     //主线程中的nstimer会自动加到Runlood中，而子线程则不会。需要手动处理

@@ -7,103 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C00D2A7C20B7AF7C000E884E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D2A7B20B7AF7C000E884E /* AppDelegate.swift */; };
-		C00D2A7E20B7AF7C000E884E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00D2A7D20B7AF7C000E884E /* ViewController.swift */; };
-		C00D2A8120B7AF7C000E884E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00D2A7F20B7AF7C000E884E /* Main.storyboard */; };
-		C00D2A8420B7AF7C000E884E /* fff.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C00D2A8220B7AF7C000E884E /* fff.xcdatamodeld */; };
-		C00D2A8620B7AF7E000E884E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00D2A8520B7AF7E000E884E /* Assets.xcassets */; };
-		C00D2A8920B7AF7E000E884E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00D2A8720B7AF7E000E884E /* LaunchScreen.storyboard */; };
+		C0BDB52B20EF05280004C823 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB52A20EF05280004C823 /* AppDelegate.swift */; };
+		C0BDB52D20EF05280004C823 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB52C20EF05280004C823 /* ViewController.swift */; };
+		C0BDB53020EF05280004C823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BDB52E20EF05280004C823 /* Main.storyboard */; };
+		C0BDB53320EF05280004C823 /* fdsaf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB53120EF05280004C823 /* fdsaf.xcdatamodeld */; };
+		C0BDB53520EF052A0004C823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BDB53420EF052A0004C823 /* Assets.xcassets */; };
+		C0BDB53820EF052A0004C823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BDB53620EF052A0004C823 /* LaunchScreen.storyboard */; };
+		C0BDB54020EF067A0004C823 /* jhy.html in Resources */ = {isa = PBXBuildFile; fileRef = C0BDB53F20EF067A0004C823 /* jhy.html */; };
+		C0BDB54320EF07940004C823 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BDB54220EF07940004C823 /* WebKit.framework */; };
+		C0BDB55320F4B7C70004C823 /* WKJSHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB55120F4B7C60004C823 /* WKJSHelper.swift */; };
+		C0BDB55420F4B7C70004C823 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB55220F4B7C70004C823 /* WKWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C00D2A7820B7AF7C000E884E /* fff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fff.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C00D2A7B20B7AF7C000E884E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C00D2A7D20B7AF7C000E884E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C00D2A8020B7AF7C000E884E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C00D2A8320B7AF7C000E884E /* fff.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fff.xcdatamodel; sourceTree = "<group>"; };
-		C00D2A8520B7AF7E000E884E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C00D2A8820B7AF7E000E884E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C00D2A8A20B7AF7E000E884E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C01D763420B7F77700CDEA7F /* fff 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "fff 2.xcdatamodel"; sourceTree = "<group>"; };
+		C0BDB52720EF05280004C823 /* WKWebJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BDB52A20EF05280004C823 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0BDB52C20EF05280004C823 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0BDB52F20EF05280004C823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0BDB53220EF05280004C823 /* fdsaf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fdsaf.xcdatamodel; sourceTree = "<group>"; };
+		C0BDB53420EF052A0004C823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0BDB53720EF052A0004C823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0BDB53920EF052A0004C823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BDB53F20EF067A0004C823 /* jhy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jhy.html; sourceTree = "<group>"; };
+		C0BDB54220EF07940004C823 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C0BDB55120F4B7C60004C823 /* WKJSHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKJSHelper.swift; sourceTree = "<group>"; };
+		C0BDB55220F4B7C70004C823 /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C00D2A7520B7AF7C000E884E /* Frameworks */ = {
+		C0BDB52420EF05280004C823 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BDB54320EF07940004C823 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C00D2A6F20B7AF7C000E884E = {
+		C0BDB51E20EF05280004C823 = {
 			isa = PBXGroup;
 			children = (
-				C00D2A7A20B7AF7C000E884E /* fff */,
-				C00D2A7920B7AF7C000E884E /* Products */,
+				C0BDB52920EF05280004C823 /* WKWebJS */,
+				C0BDB52820EF05280004C823 /* Products */,
+				C0BDB54120EF07940004C823 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C00D2A7920B7AF7C000E884E /* Products */ = {
+		C0BDB52820EF05280004C823 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C00D2A7820B7AF7C000E884E /* fff.app */,
+				C0BDB52720EF05280004C823 /* WKWebJS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C00D2A7A20B7AF7C000E884E /* fff */ = {
+		C0BDB52920EF05280004C823 /* WKWebJS */ = {
 			isa = PBXGroup;
 			children = (
-				C00D2A7B20B7AF7C000E884E /* AppDelegate.swift */,
-				C00D2A7D20B7AF7C000E884E /* ViewController.swift */,
-				C00D2A7F20B7AF7C000E884E /* Main.storyboard */,
-				C00D2A8520B7AF7E000E884E /* Assets.xcassets */,
-				C00D2A8720B7AF7E000E884E /* LaunchScreen.storyboard */,
-				C00D2A8A20B7AF7E000E884E /* Info.plist */,
-				C00D2A8220B7AF7C000E884E /* fff.xcdatamodeld */,
+				C0BDB52A20EF05280004C823 /* AppDelegate.swift */,
+				C0BDB52C20EF05280004C823 /* ViewController.swift */,
+				C0BDB55220F4B7C70004C823 /* WKWebViewController.swift */,
+				C0BDB55120F4B7C60004C823 /* WKJSHelper.swift */,
+				C0BDB52E20EF05280004C823 /* Main.storyboard */,
+				C0BDB53F20EF067A0004C823 /* jhy.html */,
+				C0BDB53420EF052A0004C823 /* Assets.xcassets */,
+				C0BDB53620EF052A0004C823 /* LaunchScreen.storyboard */,
+				C0BDB53920EF052A0004C823 /* Info.plist */,
+				C0BDB53120EF05280004C823 /* fdsaf.xcdatamodeld */,
 			);
-			path = fff;
+			path = WKWebJS;
+			sourceTree = "<group>";
+		};
+		C0BDB54120EF07940004C823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0BDB54220EF07940004C823 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C00D2A7720B7AF7C000E884E /* fff */ = {
+		C0BDB52620EF05280004C823 /* WKWebJS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C00D2A8D20B7AF7E000E884E /* Build configuration list for PBXNativeTarget "fff" */;
+			buildConfigurationList = C0BDB53C20EF052A0004C823 /* Build configuration list for PBXNativeTarget "WKWebJS" */;
 			buildPhases = (
-				C00D2A7420B7AF7C000E884E /* Sources */,
-				C00D2A7520B7AF7C000E884E /* Frameworks */,
-				C00D2A7620B7AF7C000E884E /* Resources */,
+				C0BDB52320EF05280004C823 /* Sources */,
+				C0BDB52420EF05280004C823 /* Frameworks */,
+				C0BDB52520EF05280004C823 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = fff;
-			productName = fff;
-			productReference = C00D2A7820B7AF7C000E884E /* fff.app */;
+			name = WKWebJS;
+			productName = fdsaf;
+			productReference = C0BDB52720EF05280004C823 /* WKWebJS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C00D2A7020B7AF7C000E884E /* Project object */ = {
+		C0BDB51F20EF05280004C823 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "BST-MAC";
 				TargetAttributes = {
-					C00D2A7720B7AF7C000E884E = {
+					C0BDB52620EF05280004C823 = {
 						CreatedOnToolsVersion = 9.3.1;
 					};
 				};
 			};
-			buildConfigurationList = C00D2A7320B7AF7C000E884E /* Build configuration list for PBXProject "fff" */;
+			buildConfigurationList = C0BDB52220EF05280004C823 /* Build configuration list for PBXProject "WKWebJS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,55 +131,58 @@
 				en,
 				Base,
 			);
-			mainGroup = C00D2A6F20B7AF7C000E884E;
-			productRefGroup = C00D2A7920B7AF7C000E884E /* Products */;
+			mainGroup = C0BDB51E20EF05280004C823;
+			productRefGroup = C0BDB52820EF05280004C823 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C00D2A7720B7AF7C000E884E /* fff */,
+				C0BDB52620EF05280004C823 /* WKWebJS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C00D2A7620B7AF7C000E884E /* Resources */ = {
+		C0BDB52520EF05280004C823 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C00D2A8920B7AF7E000E884E /* LaunchScreen.storyboard in Resources */,
-				C00D2A8620B7AF7E000E884E /* Assets.xcassets in Resources */,
-				C00D2A8120B7AF7C000E884E /* Main.storyboard in Resources */,
+				C0BDB53820EF052A0004C823 /* LaunchScreen.storyboard in Resources */,
+				C0BDB53520EF052A0004C823 /* Assets.xcassets in Resources */,
+				C0BDB54020EF067A0004C823 /* jhy.html in Resources */,
+				C0BDB53020EF05280004C823 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C00D2A7420B7AF7C000E884E /* Sources */ = {
+		C0BDB52320EF05280004C823 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C00D2A7E20B7AF7C000E884E /* ViewController.swift in Sources */,
-				C00D2A7C20B7AF7C000E884E /* AppDelegate.swift in Sources */,
-				C00D2A8420B7AF7C000E884E /* fff.xcdatamodeld in Sources */,
+				C0BDB55420F4B7C70004C823 /* WKWebViewController.swift in Sources */,
+				C0BDB52D20EF05280004C823 /* ViewController.swift in Sources */,
+				C0BDB53320EF05280004C823 /* fdsaf.xcdatamodeld in Sources */,
+				C0BDB55320F4B7C70004C823 /* WKJSHelper.swift in Sources */,
+				C0BDB52B20EF05280004C823 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C00D2A7F20B7AF7C000E884E /* Main.storyboard */ = {
+		C0BDB52E20EF05280004C823 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C00D2A8020B7AF7C000E884E /* Base */,
+				C0BDB52F20EF05280004C823 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C00D2A8720B7AF7E000E884E /* LaunchScreen.storyboard */ = {
+		C0BDB53620EF052A0004C823 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C00D2A8820B7AF7E000E884E /* Base */,
+				C0BDB53720EF052A0004C823 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +190,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C00D2A8B20B7AF7E000E884E /* Debug */ = {
+		C0BDB53A20EF052A0004C823 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		C00D2A8C20B7AF7E000E884E /* Release */ = {
+		C0BDB53B20EF052A0004C823 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,37 +304,35 @@
 			};
 			name = Release;
 		};
-		C00D2A8E20B7AF7E000E884E /* Debug */ = {
+		C0BDB53D20EF052A0004C823 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A46V7WFLHC;
-				INFOPLIST_FILE = fff/Info.plist;
+				INFOPLIST_FILE = WKWebJS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JJ.fff;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.WKWebJS;
+				PRODUCT_NAME = WKWebJS;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C00D2A8F20B7AF7E000E884E /* Release */ = {
+		C0BDB53E20EF052A0004C823 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A46V7WFLHC;
-				INFOPLIST_FILE = fff/Info.plist;
+				INFOPLIST_FILE = WKWebJS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = JJ.fff;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.WKWebJS;
+				PRODUCT_NAME = WKWebJS;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -320,20 +341,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C00D2A7320B7AF7C000E884E /* Build configuration list for PBXProject "fff" */ = {
+		C0BDB52220EF05280004C823 /* Build configuration list for PBXProject "WKWebJS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C00D2A8B20B7AF7E000E884E /* Debug */,
-				C00D2A8C20B7AF7E000E884E /* Release */,
+				C0BDB53A20EF052A0004C823 /* Debug */,
+				C0BDB53B20EF052A0004C823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C00D2A8D20B7AF7E000E884E /* Build configuration list for PBXNativeTarget "fff" */ = {
+		C0BDB53C20EF052A0004C823 /* Build configuration list for PBXNativeTarget "WKWebJS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C00D2A8E20B7AF7E000E884E /* Debug */,
-				C00D2A8F20B7AF7E000E884E /* Release */,
+				C0BDB53D20EF052A0004C823 /* Debug */,
+				C0BDB53E20EF052A0004C823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -341,18 +362,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C00D2A8220B7AF7C000E884E /* fff.xcdatamodeld */ = {
+		C0BDB53120EF05280004C823 /* fdsaf.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C01D763420B7F77700CDEA7F /* fff 2.xcdatamodel */,
-				C00D2A8320B7AF7C000E884E /* fff.xcdatamodel */,
+				C0BDB53220EF05280004C823 /* fdsaf.xcdatamodel */,
 			);
-			currentVersion = C01D763420B7F77700CDEA7F /* fff 2.xcdatamodel */;
-			path = fff.xcdatamodeld;
+			currentVersion = C0BDB53220EF05280004C823 /* fdsaf.xcdatamodel */;
+			path = fdsaf.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = C00D2A7020B7AF7C000E884E /* Project object */;
+	rootObject = C0BDB51F20EF05280004C823 /* Project object */;
 }

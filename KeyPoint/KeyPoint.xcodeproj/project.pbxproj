@@ -58,9 +58,6 @@
 		9D76E0B7206DD7B8007AF277 /* SwizzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D76E0B6206DD7B8007AF277 /* SwizzeViewController.swift */; };
 		9D76E0B9206DEDC3007AF277 /* AddProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D76E0B8206DEDC3007AF277 /* AddProperty.swift */; };
 		9DFBF945207361DA00C2DE9B /* ZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFBF944207361DA00C2DE9B /* ZipViewController.swift */; };
-		C00678CE20CFC08D00B9AA9F /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678CD20CFC08D00B9AA9F /* ImageManager.swift */; };
-		C00678D120CFCCF900B9AA9F /* FBTBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D020CFCCF900B9AA9F /* FBTBViewController.swift */; };
-		C00678D320CFD3FB00B9AA9F /* CusCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D220CFD3FB00B9AA9F /* CusCellNode.swift */; };
 		C00678D620D2502800B9AA9F /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D520D2502800B9AA9F /* FriendViewController.swift */; };
 		C00678D820D2530E00B9AA9F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D720D2530E00B9AA9F /* CommentCell.swift */; };
 		C00678DA20D253C800B9AA9F /* CommentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00678D920D253C800B9AA9F /* CommentHeaderView.swift */; };
@@ -91,6 +88,12 @@
 		C0BDB4D520E4E3FC0004C823 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB4D420E4E3FC0004C823 /* ConversationCell.swift */; };
 		C0BDB51B20EA28F10004C823 /* JhyMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB51A20EA28F10004C823 /* JhyMessage.swift */; };
 		C0BDB51D20EB56250004C823 /* JhyMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB51C20EB56250004C823 /* JhyMessageCell.swift */; };
+		C0BDB54720EF4EBC0004C823 /* JLRountesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB54520EF4EBC0004C823 /* JLRountesViewController.swift */; };
+		C0BDB54820EF4EBC0004C823 /* JLRountesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0BDB54620EF4EBC0004C823 /* JLRountesViewController.xib */; };
+		C0BDB54B20EF54880004C823 /* JLTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB54920EF54880004C823 /* JLTestViewController.swift */; };
+		C0BDB54C20EF54880004C823 /* JLTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0BDB54A20EF54880004C823 /* JLTestViewController.xib */; };
+		C0BDB54F20F33D4D0004C823 /* JLMyTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BDB54D20F33D4C0004C823 /* JLMyTargetViewController.swift */; };
+		C0BDB55020F33D4D0004C823 /* JLMyTargetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0BDB54E20F33D4D0004C823 /* JLMyTargetViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,9 +179,6 @@
 		9D76E0B8206DEDC3007AF277 /* AddProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProperty.swift; sourceTree = "<group>"; };
 		9DFBF944207361DA00C2DE9B /* ZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipViewController.swift; sourceTree = "<group>"; };
 		A194B6CD3C53C662BDCCD3F2 /* Pods-KeyPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyPoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyPoint/Pods-KeyPoint.release.xcconfig"; sourceTree = "<group>"; };
-		C00678CD20CFC08D00B9AA9F /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
-		C00678D020CFCCF900B9AA9F /* FBTBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBTBViewController.swift; sourceTree = "<group>"; };
-		C00678D220CFD3FB00B9AA9F /* CusCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusCellNode.swift; sourceTree = "<group>"; };
 		C00678D520D2502800B9AA9F /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		C00678D720D2530E00B9AA9F /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		C00678D920D253C800B9AA9F /* CommentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentHeaderView.swift; sourceTree = "<group>"; };
@@ -209,6 +209,12 @@
 		C0BDB4D420E4E3FC0004C823 /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
 		C0BDB51A20EA28F10004C823 /* JhyMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JhyMessage.swift; sourceTree = "<group>"; };
 		C0BDB51C20EB56250004C823 /* JhyMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JhyMessageCell.swift; sourceTree = "<group>"; };
+		C0BDB54520EF4EBC0004C823 /* JLRountesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLRountesViewController.swift; sourceTree = "<group>"; };
+		C0BDB54620EF4EBC0004C823 /* JLRountesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JLRountesViewController.xib; sourceTree = "<group>"; };
+		C0BDB54920EF54880004C823 /* JLTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLTestViewController.swift; sourceTree = "<group>"; };
+		C0BDB54A20EF54880004C823 /* JLTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JLTestViewController.xib; sourceTree = "<group>"; };
+		C0BDB54D20F33D4C0004C823 /* JLMyTargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLMyTargetViewController.swift; sourceTree = "<group>"; };
+		C0BDB54E20F33D4D0004C823 /* JLMyTargetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JLMyTargetViewController.xib; sourceTree = "<group>"; };
 		F07E1DE0CBEA6D56E438FDC0 /* Pods_KeyPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -467,9 +473,9 @@
 				9D76E0AC206CF039007AF277 /* GetPropertyViewController.swift */,
 				9D76E0B4206D4CC8007AF277 /* GetPropertyBaseOCViewController.swift */,
 				9D76E0B6206DD7B8007AF277 /* SwizzeViewController.swift */,
+				C0BDB54420EF4E9F0004C823 /* JLRountes */,
 				C0BDB4CC20E35A6E0004C823 /* CoreData */,
 				C00678D420D24EFF00B9AA9F /* 仿朋友圈 */,
-				C00678CF20CFCCAE00B9AA9F /* FB AsyDisplayKit TV */,
 				C01B0F1220CA1F8E00D15252 /* RunLoop 线程保活/依赖/FB AsyDisplayKit */,
 				C01B0EFB20C7829A00D15252 /* MoreRX */,
 				C07C82B420BEBD6D006391BB /* RongClound */,
@@ -504,15 +510,6 @@
 			path = KeyPoint;
 			sourceTree = "<group>";
 		};
-		C00678CF20CFCCAE00B9AA9F /* FB AsyDisplayKit TV */ = {
-			isa = PBXGroup;
-			children = (
-				C00678D020CFCCF900B9AA9F /* FBTBViewController.swift */,
-				C00678D220CFD3FB00B9AA9F /* CusCellNode.swift */,
-			);
-			name = "FB AsyDisplayKit TV";
-			sourceTree = "<group>";
-		};
 		C00678D420D24EFF00B9AA9F /* 仿朋友圈 */ = {
 			isa = PBXGroup;
 			children = (
@@ -540,7 +537,6 @@
 			children = (
 				C01B0F0E20CA1F8900D15252 /* RunLoopViewController.swift */,
 				C01B0F0F20CA1F8900D15252 /* RunLoopViewController.xib */,
-				C00678CD20CFC08D00B9AA9F /* ImageManager.swift */,
 			);
 			name = "RunLoop 线程保活/依赖/FB AsyDisplayKit";
 			sourceTree = "<group>";
@@ -585,6 +581,19 @@
 				C0BDB4D120E39C640004C823 /* CoreData.xcdatamodeld */,
 			);
 			name = CoreData;
+			sourceTree = "<group>";
+		};
+		C0BDB54420EF4E9F0004C823 /* JLRountes */ = {
+			isa = PBXGroup;
+			children = (
+				C0BDB54D20F33D4C0004C823 /* JLMyTargetViewController.swift */,
+				C0BDB54E20F33D4D0004C823 /* JLMyTargetViewController.xib */,
+				C0BDB54520EF4EBC0004C823 /* JLRountesViewController.swift */,
+				C0BDB54620EF4EBC0004C823 /* JLRountesViewController.xib */,
+				C0BDB54920EF54880004C823 /* JLTestViewController.swift */,
+				C0BDB54A20EF54880004C823 /* JLTestViewController.xib */,
+			);
+			name = JLRountes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -718,6 +727,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96257787209213A6007818A7 /* Static_const_extern_ViewController.xib in Resources */,
+				C0BDB54820EF4EBC0004C823 /* JLRountesViewController.xib in Resources */,
 				C01B0F0120C782DB00D15252 /* MoreRXViewController.xib in Resources */,
 				9D76E0A5206CD863007AF277 /* LaunchScreen.storyboard in Resources */,
 				9D76E0A2206CD863007AF277 /* Assets.xcassets in Resources */,
@@ -725,10 +735,12 @@
 				C01B0F0520C7A77A00D15252 /* PresentViewController.xib in Resources */,
 				C01B0F1120CA1F8900D15252 /* RunLoopViewController.xib in Resources */,
 				960510092077CEA10020D9A1 /* Podfile in Resources */,
+				C0BDB55020F33D4D0004C823 /* JLMyTargetViewController.xib in Resources */,
 				C01B0F0920C90C6D00D15252 /* CLocationViewController.xib in Resources */,
 				96292FC6207932E90013F72C /* GaoJieViewController.xib in Resources */,
 				96292FCB2079F4050013F72C /* RXViewController.xib in Resources */,
 				9D76E0A0206CD863007AF277 /* Main.storyboard in Resources */,
+				C0BDB54C20EF54880004C823 /* JLTestViewController.xib in Resources */,
 				96257781208E3A9F007818A7 /* SignalViewController.xib in Resources */,
 				968EE8BD2082449A0031FAE3 /* MoreThreadViewController.xib in Resources */,
 				96A191CA209DE05200EC037F /* RXCocoaViewController.xib in Resources */,
@@ -747,17 +759,12 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-KeyPoint/Pods-KeyPoint-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AsyncDisplayKit/AsyncDisplayKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FBRetainCycleDetector/FBRetainCycleDetector.framework",
 				"${BUILT_PRODUCTS_DIR}/JJCategoryKit/JJCategoryKit.framework",
+				"${BUILT_PRODUCTS_DIR}/JLRoutes/JLRoutes.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/MLeaksFinder/MLeaksFinder.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
-				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
-				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
@@ -772,17 +779,12 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBRetainCycleDetector.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JJCategoryKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLRoutes.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLeaksFinder.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
@@ -886,26 +888,25 @@
 				C01B0F0D20C90E2B00D15252 /* CLocation+RX.swift in Sources */,
 				96A2CE6420A1F3E700F88100 /* File.swift in Sources */,
 				9625778C20938107007818A7 /* ToDoDemoViewController.swift in Sources */,
-				C00678D320CFD3FB00B9AA9F /* CusCellNode.swift in Sources */,
 				C00678DA20D253C800B9AA9F /* CommentHeaderView.swift in Sources */,
 				96292FCA2079F4050013F72C /* RXViewController.swift in Sources */,
 				C0BDB51B20EA28F10004C823 /* JhyMessage.swift in Sources */,
 				C03BB7EE20AD50DF00841ED8 /* Person.swift in Sources */,
+				C0BDB54720EF4EBC0004C823 /* JLRountesViewController.swift in Sources */,
 				962577952094DDB3007818A7 /* ToDoCell.swift in Sources */,
 				C00678D620D2502800B9AA9F /* FriendViewController.swift in Sources */,
 				C07C82BC20BFEB31006391BB /* ChatCell.swift in Sources */,
-				C00678CE20CFC08D00B9AA9F /* ImageManager.swift in Sources */,
 				9D5E01C92071C94400B4B410 /* OCObject.m in Sources */,
 				96292FC5207932E90013F72C /* GaoJieViewController.swift in Sources */,
 				9D76E0B9206DEDC3007AF277 /* AddProperty.swift in Sources */,
 				9625778F209383D6007818A7 /* ToDemoHelperViewController.swift in Sources */,
-				C00678D120CFCCF900B9AA9F /* FBTBViewController.swift in Sources */,
 				9D76E0B3206D4B7F007AF277 /* OCViewController.m in Sources */,
 				96A191B4209C137C00EC037F /* PHPhotoLibrary+RX.swift in Sources */,
 				C03BB7F120AEC71100841ED8 /* MoyaViewController.swift in Sources */,
 				C07C82C220C0ECBE006391BB /* RCHelper.swift in Sources */,
 				96A191B9209CACF700EC037F /* RXFlatMaoViewController.swift in Sources */,
 				C01B0F1020CA1F8900D15252 /* RunLoopViewController.swift in Sources */,
+				C0BDB54B20EF54880004C823 /* JLTestViewController.swift in Sources */,
 				96E8329020A482F50062343A /* CoreTextViewController.swift in Sources */,
 				C01B0F0020C782DB00D15252 /* MoreRXViewController.swift in Sources */,
 				9D5E01C62070963000B4B410 /* NSMutableArray+Safe.m in Sources */,
@@ -913,6 +914,7 @@
 				9D76E0AD206CF039007AF277 /* GetPropertyViewController.swift in Sources */,
 				C0BDB4D520E4E3FC0004C823 /* ConversationCell.swift in Sources */,
 				96A191BE209D64E600EC037F /* RXAlamofireViewController.swift in Sources */,
+				C0BDB54F20F33D4D0004C823 /* JLMyTargetViewController.swift in Sources */,
 				C00678D820D2530E00B9AA9F /* CommentCell.swift in Sources */,
 				96E8329220A48B620062343A /* CoreTextStr.swift in Sources */,
 				96A191C2209D73B700EC037F /* EnumDemo.swift in Sources */,

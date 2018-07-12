@@ -1,21 +1,33 @@
 //
-//  CoreDataViewController.swift
+//  JLMyTargetViewController.swift
 //  KeyPoint
 //
-//  Created by BST-MAC on 2018/6/27.
+//  Created by BST-MAC on 2018/7/9.
 //  Copyright © 2018年 Jason. All rights reserved.
 //
 
 import UIKit
-
-class CoreDataViewController: UIViewController {
-
+import JLRoutes
+class JLMyTargetViewController: UIViewController ,JLRRouteHandlerTarget{
+    
+    var parameters = Dictionary<String, Any>()
+//    var p:Dictionary<String, Any>?
+    
+    required init(routeParameters parameters: [String : Any]) {
+        super.init(nibName: nil, bundle: nil)
+        
+        print("the rountes parametes is \(parameters)")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        CoreDataManager.manager.addEntity("JhyEntity")
+        self.navigationItem.title = "JLRountes Push Test"
     }
 
     override func didReceiveMemoryWarning() {

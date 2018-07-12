@@ -23,6 +23,7 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
              ["title":"多线程","id":"7"],
              ["title":"信号量","id":"9"],
              ["title":"static const extern","id":"10"],
+             ["title":"JLRountes","id":"28"],
              ["title":"NFC","id":"12"],
              ["title":"AVCaptureSession","id":"18"],
              ["title":"Core Text","id":"19"],
@@ -33,6 +34,7 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
              ["title":"RunLoop 线程保活/FB Asy 基本UI使用","id":"25"],
              ["title":"FB Asy TableView使用","id":"26"],
              ["title":"朋友圈👭","id":"27"],
+             ["title":"coreData","id":"29"],
              ["title":"RX更多的demo","id":"24"],
              ["title":"RX 基础","id":"8"],
              ["title":"RX Varable Demo","id":"11"],
@@ -226,12 +228,22 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
             self.navigationController?.pushViewController(vc, animated: true)
             break
         case 26:
-            let vc = FBTBViewController()
-            vc.navigationItem.title = title
-            self.navigationController?.pushViewController(vc, animated: true)
+//            let vc = FBTBViewController()
+//            vc.navigationItem.title = title
+//            self.navigationController?.pushViewController(vc, animated: true)
             break
         case 27:
             let vc = FriendViewController()
+            vc.navigationItem.title = title
+            self.navigationController?.pushViewController(vc, animated: true)
+            break
+        case 28:
+            let vc = JLRountesViewController.init(nibName: "JLRountesViewController", bundle: nil)
+            vc.navigationItem.title = title
+            self.navigationController?.pushViewController(vc, animated: true)
+            break
+        case 29:
+            let vc = CoreDataViewController()
             vc.navigationItem.title = title
             self.navigationController?.pushViewController(vc, animated: true)
             break
