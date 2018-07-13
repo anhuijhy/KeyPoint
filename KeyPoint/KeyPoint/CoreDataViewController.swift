@@ -15,7 +15,8 @@ class CoreDataViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        CoreDataManager.manager.addEntity("JhyEntity")
+        CoreDataManager.manager.addNewEntity("JhyEntity")
+        CoreDataManager.manager.queryEntityData(nil, entityName: "JhyEntity")
     }
 
     override func didReceiveMemoryWarning() {

@@ -76,6 +76,7 @@
 		C03BB7EE20AD50DF00841ED8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BB7ED20AD50DF00841ED8 /* Person.swift */; };
 		C03BB7F120AEC71100841ED8 /* MoyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BB7F020AEC71100841ED8 /* MoyaViewController.swift */; };
 		C03BB7F320AEC7A200841ED8 /* MoyaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BB7F220AEC7A200841ED8 /* MoyaService.swift */; };
+		C04FA67320F7473A007C65B5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C04FA67220F7473A007C65B5 /* libsqlite3.0.tbd */; };
 		C07C82B820BF9AEF006391BB /* RCListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C82B720BF9AEF006391BB /* RCListViewController.swift */; };
 		C07C82BA20BFA181006391BB /* RCChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C82B920BFA181006391BB /* RCChatViewController.swift */; };
 		C07C82BC20BFEB31006391BB /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07C82BB20BFEB31006391BB /* ChatCell.swift */; };
@@ -197,6 +198,7 @@
 		C03BB7ED20AD50DF00841ED8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		C03BB7F020AEC71100841ED8 /* MoyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaViewController.swift; sourceTree = "<group>"; };
 		C03BB7F220AEC7A200841ED8 /* MoyaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaService.swift; sourceTree = "<group>"; };
+		C04FA67220F7473A007C65B5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		C07C82B720BF9AEF006391BB /* RCListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCListViewController.swift; sourceTree = "<group>"; };
 		C07C82B920BFA181006391BB /* RCChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCChatViewController.swift; sourceTree = "<group>"; };
 		C07C82BB20BFEB31006391BB /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04FA67320F7473A007C65B5 /* libsqlite3.0.tbd in Frameworks */,
 				C01B0F0B20C90D3600D15252 /* CoreLocation.framework in Frameworks */,
 				C07C82C020BFF89F006391BB /* UserNotificationsUI.framework in Frameworks */,
 				C07C82BE20BFF884006391BB /* UserNotifications.framework in Frameworks */,
@@ -251,6 +254,7 @@
 		0C4E336F458D327E8E62A12D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C04FA67220F7473A007C65B5 /* libsqlite3.0.tbd */,
 				C01B0F0A20C90D3600D15252 /* CoreLocation.framework */,
 				C07C82BF20BFF89E006391BB /* UserNotificationsUI.framework */,
 				C07C82BD20BFF884006391BB /* UserNotifications.framework */,

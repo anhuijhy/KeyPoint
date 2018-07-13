@@ -113,10 +113,10 @@ extension CoreDataManager{
         //==Method One
         print("the objectContext is \(CoreDataManager.manager)")
         let Entity = NSEntityDescription.entity(forEntityName: entityName, in: CoreDataManager.manager.objectContext)
+        
         let classEntity = NSManagedObject(entity: Entity!, insertInto: CoreDataManager.manager.objectContext)
         
-        classEntity.setValue("Jason", forKey: "name")
-        
+        classEntity.setValue("Jason7", forKey: "name")
         //保存实体对象
         //            try CoreDataManager.manager.objectContext.save()
         CoreDataManager.manager.saveContext()
@@ -165,10 +165,10 @@ extension CoreDataManager{
     
     //===查查查查查
     
-    func queryEntityData(_ entityClass:NSManagedObject, entityName name:String){
+    func queryEntityData(_ entityClass:NSManagedObject?, entityName name:String){
         
         let request = NSFetchRequest<NSFetchRequestResult>.init(entityName:name)
-        request.predicate = NSPredicate(format: "name = Jason", "")
+//        request.predicate = NSPredicate(format: "name = Jason", "")
         
         let asyncFecthRequest = NSAsynchronousFetchRequest(fetchRequest: request) { (result: NSAsynchronousFetchResult!) in
             
@@ -176,9 +176,9 @@ extension CoreDataManager{
             
             for c  in fetchObject{
                 
-                c.name = "qazwertdfxcvg"
-                CoreDataManager.manager.saveContext()
-                
+//                c.name = "qazwertdfxcvg"
+//                CoreDataManager.manager.saveContext()
+                print("the search result \(c.name)")
             }
         }
         
@@ -189,7 +189,7 @@ extension CoreDataManager{
             
         } catch  {
             
-            print("error")
+            print("query error jhy")
         }
     }
 }
@@ -232,6 +232,7 @@ extension CoreDataManager{
             
             do {
                 try CoreDataManager.manager.objectContext.save()
+                print("save success")
             } catch {
                 // Replace this implementation with code to handle the error appropriately.
                 // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
