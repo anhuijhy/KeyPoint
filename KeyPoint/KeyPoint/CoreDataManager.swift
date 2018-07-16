@@ -104,6 +104,7 @@ extension CoreDataManager{
 
         //==Method Two
         //          let jhye = JhyEntity.init(entity: NSEntityDescription.entity(forEntityName: "JhyEntity", in: CoreDataManager.manager.objectContext)!, insertInto: CoreDataManager.manager.objectContext)
+
         
     }
     
@@ -135,7 +136,7 @@ extension CoreDataManager{
     func modifyEntityData(_ entityClass:NSManagedObject, entityName name:String){
         
         let request = NSFetchRequest<NSFetchRequestResult>.init(entityName:name)
-        request.predicate = NSPredicate(format: "name = Jason", "")
+        request.predicate = NSPredicate(format: "name = ‘Jason7’")
         
         let asyncFecthRequest = NSAsynchronousFetchRequest(fetchRequest: request) { (result: NSAsynchronousFetchResult!) in
             
@@ -163,13 +164,13 @@ extension CoreDataManager{
     
     
     
-    //===查查查查查
+    //===查查查查查 valus 要用‘’------------->import
     
     func queryEntityData(_ entityClass:NSManagedObject?, entityName name:String){
         
         let request = NSFetchRequest<NSFetchRequestResult>.init(entityName:name)
-//        request.predicate = NSPredicate(format: "name = Jason", "")
-        
+        request.predicate = NSPredicate(format: "name = 'Jason7'")
+
         let asyncFecthRequest = NSAsynchronousFetchRequest(fetchRequest: request) { (result: NSAsynchronousFetchResult!) in
             
             let fetchObject  = result.finalResult! as! [JhyEntity]
