@@ -97,7 +97,6 @@ extension CoreDataManager{
         let classEntity = NSManagedObject(entity: Entity!, insertInto: CoreDataManager.manager.objectContext)
         
         classEntity.setValue("Jason", forKey: "name")
-        
             //保存实体对象
 //            try CoreDataManager.manager.objectContext.save()
             CoreDataManager.manager.saveContext()
@@ -119,12 +118,7 @@ extension CoreDataManager{
         
         classEntity.setValue("Jason7", forKey: "name")
         //保存实体对象
-        //            try CoreDataManager.manager.objectContext.save()
         CoreDataManager.manager.saveContext()
-        
-        //==Method Two
-        //          let jhye = JhyEntity.init(entity: NSEntityDescription.entity(forEntityName: "JhyEntity", in: CoreDataManager.manager.objectContext)!, insertInto: CoreDataManager.manager.objectContext)
-        
     }
     
 }
@@ -133,32 +127,23 @@ extension CoreDataManager{
     
 
     //===改
-    func modifyEntityData(_ entityClass:NSManagedObject, entityName name:String){
+    func modifyEntityData(_ entityClass:NSManagedObject?, entityName name:String){
         
         let request = NSFetchRequest<NSFetchRequestResult>.init(entityName:name)
-        request.predicate = NSPredicate(format: "name = ‘Jason7’")
+        request.predicate = NSPredicate(format: "name = 'Jason7'")
         
-        let asyncFecthRequest = NSAsynchronousFetchRequest(fetchRequest: request) { (result: NSAsynchronousFetchResult!) in
+        _ = NSAsynchronousFetchRequest(fetchRequest: request) { (result: NSAsynchronousFetchResult!) in
             
             let fetchObject  = result.finalResult! as! [JhyEntity]
             
             for c  in fetchObject{
                 
                 c.name = "qazwertdfxcvg"
-                CoreDataManager.manager.saveContext()
-                
             }
+            
+            CoreDataManager.manager.saveContext()
         }
-        
-        // 执行异步请求调用execute
-        do {
-            
-            try CoreDataManager.manager.objectContext.execute(asyncFecthRequest)
-            
-        } catch  {
-            
-            print("error")
-        }
+
     }
     
     
@@ -176,10 +161,8 @@ extension CoreDataManager{
             let fetchObject  = result.finalResult! as! [JhyEntity]
             
             for c  in fetchObject{
-                
-//                c.name = "qazwertdfxcvg"
-//                CoreDataManager.manager.saveContext()
-                print("the search result \(c.name)")
+
+                print("the search result \(c.name ?? "no name")")
             }
         }
         
@@ -220,7 +203,6 @@ extension CoreDataManager{
         } catch   {
             
             print("error")
-            
         }
     }
 }

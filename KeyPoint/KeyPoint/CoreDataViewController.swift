@@ -17,6 +17,7 @@ class CoreDataViewController: UIViewController {
         
         CoreDataManager.manager.addNewEntity("JhyEntity")
         CoreDataManager.manager.queryEntityData(nil, entityName: "JhyEntity")
+        CoreDataManager.manager.modifyEntityData(nil, entityName: "JhyEntity")
     }
 
     override func didReceiveMemoryWarning() {
